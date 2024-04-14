@@ -1,0 +1,15 @@
+apiVersion: playlist.spotify.crossplane.io/v1alpha1
+kind: Playlist
+metadata:
+  name: crossplane-can-play-music
+spec:
+  forProvider:
+    name: "Crossplane can play music"
+    description: "created and managed by crossplane-contrib/provider-spotify"
+    public: true
+    tracks:
+      - "5Mri1bQdUrkcOkgZuudO16"
+      - "0BZMYVlHBQt3X4oqizPEDR"
+      - "2FVFnSm4CQzDxJBVyzWHsR"
+  providerConfigRef:
+    name: default
