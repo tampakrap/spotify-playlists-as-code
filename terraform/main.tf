@@ -1,8 +1,8 @@
 terraform {
   required_providers {
     spotify = {
-      version = "~> 0.2.0"
       source  = "conradludgate/spotify"
+      version = "~> 0.2.0"
     }
   }
 }
@@ -12,5 +12,5 @@ provider "spotify" {
 }
 
 locals {
-  repo = "https://github.com/tampakrap/terraform-spotify-tampakrap-playlists"
+  repo = "https://github.com/tampakrap/spotify-playlists-as-code"
 }
