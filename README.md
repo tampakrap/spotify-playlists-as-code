@@ -1,7 +1,9 @@
 # Spotify Playlists as Code <!-- omit in toc -->
 
 [tampakrap's Spotify playlists](https://open.spotify.com/user/tampakrap)
-managed by either Terraform or Crossplane.
+managed by either Terraform or Crossplane. They are Cloud Native Playlists,
+ideal for practicing [Music Driven
+Development](https://twitter.com/tampakrap/status/1775928579089375728)!
 
 # Table of contents
 - [Terraform managed playlists](#terraform-managed-playlists)
@@ -32,6 +34,7 @@ Relevant documentation for the Terraform Spotify Provider:
 Relevant documentation for the Crossplane Spotify Provider:
 - [Upbound Marketplace](https://marketplace.upbound.io/providers/crossplane-contrib/provider-spotify)
 - [Git Repository](https://github.com/crossplane-contrib/provider-spotify)
+Please give this repo a :star:!
 
 ### Spotify-Auth-Proxy
 
