@@ -5,7 +5,7 @@ metadata:
 spec:
   forProvider:
     name: "Crossplane can play music"
-    description: "created and managed by crossplane-contrib/provider-spotify"
+    description: "Created using crossplane-contrib/provider-spotify Feel free to submit your favorite tracks to this playlist by opening a PR to https://github.com/tampakrap/spotify-playlists-as-code"
     public: true
     tracks:
       - "5Mri1bQdUrkcOkgZuudO16"
